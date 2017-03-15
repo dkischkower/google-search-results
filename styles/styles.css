@@ -1,18 +1,17 @@
 div {margin: 0; padding: 0;}
 
 .whole-page{
-  overflow-y: scroll;
-  display: block;
-  position:relative;
-  margin: 0px auto;
-  min-width: 833px;
+  position: absolute;
+  top: 0;
+  width: 100%;
 }
 
 .top-part{
   background:#fafafa;
-  position:relative;
   height:70px;
-  width:auto;
+  position:absolute;
+  width:100%;
+  min-width:980px;
 }
 
 .main-logo{
@@ -86,12 +85,14 @@ div {margin: 0; padding: 0;}
 
 .navigation-part{
   background:#fafafa;
-  position:relative;
   height:53px;
-  width:auto;
   color:black;
   text-align:center;
   border-bottom:1px solid #ebebeb;
+  position:absolute;
+  width:100%;
+  top:70px;
+  min-width:980px;
 }
 
 .nav-item{
@@ -129,7 +130,7 @@ div {margin: 0; padding: 0;}
 
 .middle-part{
   width:auto;
-  height:1000px;
+  height:1100px;
   background:white;
 }
 
@@ -137,8 +138,9 @@ div {margin: 0; padding: 0;}
   position:absolute;
   background:;
   width:600px;
-  height:1000px;
+  height:870px;
   left:165px;
+  top:124px;
 }
 .response-time{
   color:#777;
@@ -238,8 +240,10 @@ div {margin: 0; padding: 0;}
 .bottom-part{
   background:#f2f2f2;
   height:78px;
-  width:auto;
   border-top:1px solid #e4e4e4;
+  position:absolute;
+  width:100%;
+  min-width:980px;
 }
 
 .nav-foot-item{
